@@ -1,4 +1,4 @@
-package model;
+package use;
 
 import java.util.function.BiFunction;
 import java.util.function.Function;
