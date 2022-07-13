@@ -6,9 +6,9 @@ import java.util.List;
 public class Words {
     public static List<String> getWords() {
         List<String> words = Arrays.asList(
-                "Líchigo", "Gorrero", "Gonorrea",
-                "Zunga","Huevón","Lámpara","Boleta",
-                "Garbimba","Guiso","Guisa","Sapo","Sapa"
+                "lichigo", "gorrero", "hijoputa",
+                "zunga","huevón","lámpara","boleta",
+                "garbimba","guiso","guisa","sapo","sapa"
         );
         return words;
     }
