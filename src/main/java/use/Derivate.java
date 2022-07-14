@@ -33,6 +33,8 @@ public class Derivate {
         };
         Function<Double, Double> exponenteResult = (expo) -> expo + 2;
 
-        return "la integral de: ∫" + coefficient + "x^" + exponent + "dx es de: " + coefficientResult.apply(coefficient, exponent) + "x^" + exponenteResult.apply(exponent) + "+ C";
+        return "la integral de: ∫" + coefficient + "x^" +
+                exponent + "dx es de: " + coefficientResult.apply(coefficient, exponent)
+                + "x^" + exponenteResult.apply(exponent) + "+ C";
     }
 }
